@@ -15,7 +15,7 @@ In simpler terms, semantic alignment means to make the target layers predict lik
 # Interpretation
 When this technique is applied to a ResNet based person re-identification network, performance has been shown to vastly improve. There are many ways to describe how / why semantic alignment works.
 
-When we discuss with terms such as vector semantics of this or that layer, we are really talking about the predictive distinctiveness of one layer relative to another or others.  Models which always predict identically to one another are redundant. On the other hand, models that vary wildly from one another are incoherent. Effective models in Machine Learning must strike a delicate balance between redundancy and incoherence. As I can tell, KL loss works by enforcing coherence across layers. The training process enforces a state of coherence across layers, pointing to/suggesting a common direction for all layers to work toward. In vast multidimensional vector spaces it seems it can help to develop a sense of coherence. Go figure.
+When we discuss with terms such as vector semantics of this or that layer, we are really talking about the predictive distinctiveness of one layer relative to another or others.  Models which always predict identically to one another are redundant. On the other hand, models that vary wildly from one another are incoherent. Effective models in Machine Learning must strike a delicate balance between redundancy and incoherence. As I can tell, KL loss works by enforcing coherence across layers. The training process enforces a state of coherence across layers, pointing to/suggesting a common direction for all layers to work toward, not unlike files of metal drawn into order by a magnetic field.
 
 
 
