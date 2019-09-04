@@ -1,8 +1,9 @@
-# Note to the reader
-A friendly suggestion, perhaps do not attempt to run this code. This code is in transition as I am not satisfied with the condition it ended up in during crunch. One may consider this a proof of experience, rather than a shining example of software design principles I would prefer. I do not have the resources currently (as of 9/2019) to maintain this code so it will likely remain her as proof of my early forrays into deep learning. When I get my hands on a GPU I can continue to improve this implimentation.
 
-# PersonSearchCLSA
+# Person Search by CLSA
 This is a reconstruction from scratch of a deep network, based on a technique outlined in the compouter vision paper "Person Search by Multi-Scale Matching". The model is built upon a modified ResNet-50 backbone. The purpose of the technique is to boost the performance of person search by reinforcing semantic alignment across layers.
+
+A friendly suggestion:
+perhaps do not attempt to run this code. This code is in transition as I am not satisfied with the condition it ended up in during crunch. One may consider this a proof of experience, rather than a shining example of software design principles I would prefer. I do not have the resources currently (as of 9/2019) to maintain this code so it will likely remain her as proof of my early forrays into deep learning. When I get my hands on a GPU I can continue to improve this implimentation.
 
 There is no formal write-up for this project, only a final presentation (included). I have provided a personal interpretation of the primary technique:
 
